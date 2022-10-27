@@ -1,3 +1,16 @@
+/* Error: Missing argument $urlimg.
+ *   ,--> sass/layout/_container.scss
+ * 20|         @include bckgrdimg;
+ *   |         ^^^^^^^^^^^^^^^^^^ invocation
+ *   '
+ *   ,--> sass/utils/_mixins.scss
+ * 3 | @mixin bckgrdimg($urlimg) {
+ *   |        ================== declaration
+ *   '
+ *   sass/layout/_container.scss 20:9  bckgrdimg()
+ *   sass/layout/_container.scss 20:9  @import
+ *   sass/main.scss 13:9               root stylesheet */
+
 body::before {
   font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
       "Droid Sans Mono", monospace, monospace;
@@ -8,88 +21,3 @@ body::before {
   border-bottom: 2px solid black;
   content: "Error: Missing argument $urlimg.\a   \250c \2500 \2500 > sass/layout/_container.scss\a 20\2502          @include bckgrdimg;\a   \2502          ^^^^^^^^^^^^^^^^^^ invocation\a   \2575 \a   \250c \2500 \2500 > sass/utils/_mixins.scss\a 3 \2502  @mixin bckgrdimg($urlimg) {\a   \2502         \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501  declaration\a   \2575 \a   sass/layout/_container.scss 20:9  bckgrdimg()\a   sass/layout/_container.scss 20:9  @import\a   sass/main.scss 13:9               root stylesheet";
 }
-/* Font Awesome */
-/* initilisation */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  text-decoration: none;
-  list-style: none;
-}
-
-/* Font : ROBOTO */
-@font-face {
-  font-family: "robotoblack";
-  src: url("/assets/fonts/roboto-black-webfont.woff2") format("woff2"), url("/assets/fonts/roboto-black-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: "robotobold";
-  src: url("/assets/fonts/roboto-bold-webfont.woff2") format("woff2"), url("/assets/fonts/roboto-bold-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: "robotolight";
-  src: url("/assets/fonts/roboto-light-webfont.woff2") format("woff2"), url("/assets/fonts/roboto-light-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: "robotomedium";
-  src: url("/assets/fonts/roboto-medium-webfont.woff2") format("woff2"), url("/assets/fonts/roboto-medium-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: "robotoregular";
-  src: url("/assets/fonts/roboto-regular-webfont.woff2") format("woff2"), url("/assets/fonts/roboto-regular-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: "robotothin";
-  src: url("/assets/fonts/roboto-thin-webfont.woff2") format("woff2"), url("/assets/fonts/roboto-thin-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
-/* *** Style des polices *** */
-h1 {
-  font-family: "robotoregular", sans-serif;
-}
-
-h2 {
-  font-family: "robotoregular", sans-serif;
-}
-
-h3 {
-  font-family: "robotoregular", sans-serif;
-}
-
-h4 {
-  font-family: "robotoregular", sans-serif;
-}
-
-h5 {
-  font-family: "robotoregular", sans-serif;
-}
-
-h6 {
-  font-family: "robotoregular", sans-serif;
-}
-
-a {
-  font-family: "robotoregular", sans-serif;
-}
-
-p {
-  font-family: "robotoregular", sans-serif;
-}
-
-blockquote {
-  font-family: "robotoregular", sans-serif;
-}
-
-/*# sourceMappingURL=style.css.map */
