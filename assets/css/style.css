@@ -1,4 +1,9 @@
 /* Font Awesome */
+body {
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
 
 /* initilisation */
 * {
@@ -9,15 +14,54 @@
   list-style: none;
 }
 
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Missing argument $urlimg.\a   \250c \2500 \2500 > sass/layout/_container.scss\a 20\2502          @include bckgrdimg;\a   \2502          ^^^^^^^^^^^^^^^^^^ invocation\a   \2575 \a   \250c \2500 \2500 > sass/utils/_mixins.scss\a 3 \2502  @mixin bckgrdimg($urlimg) {\a   \2502         \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501  declaration\a   \2575 \a   sass/layout/_container.scss 20:9  bckgrdimg()\a   sass/layout/_container.scss 20:9  @import\a   sass/main.scss 13:9               root stylesheet";
+/* Font : ROBOTO */
+@font-face {
+  font-family: "robotoblack";
+  src: url("/assets/fonts/roboto-black-webfont.woff2") format("woff2"), url("/assets/fonts/roboto-black-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "robotobold";
+  src: url("/assets/fonts/roboto-bold-webfont.woff2") format("woff2"), url("/assets/fonts/roboto-bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "robotolight";
+  src: url("/assets/fonts/roboto-light-webfont.woff2") format("woff2"), url("/assets/fonts/roboto-light-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "robotomedium";
+  src: url("/assets/fonts/roboto-medium-webfont.woff2") format("woff2"), url("/assets/fonts/roboto-medium-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "robotoregular";
+  src: url("/assets/fonts/roboto-regular-webfont.woff2") format("woff2"), url("/assets/fonts/roboto-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "robotothin";
+  src: url("/assets/fonts/roboto-thin-webfont.woff2") format("woff2"), url("/assets/fonts/roboto-thin-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+/* *** Style des polices *** */
+h1 {
+  font-family: "robotoregular", sans-serif;
+}
+
+h2 {
+  font-family: "robotoregular", sans-serif;
+}
+
+h3 {
+  font-family: "robotoregular", sans-serif;
 }
 
 h4 {
@@ -42,6 +86,58 @@ p {
 
 blockquote {
   font-family: "robotoregular", sans-serif;
+}
+
+header {
+  z-index: 0;
+  aspect-ratio: 1920/930;
+  background-image: url("/assets/img/banner_bg.jpg");
+  background-position: top center;
+  background-size: contain;
+  background-repeat: repeat;
+}
+
+section {
+  max-width: 100vw;
+  width: 100%;
+}
+section #section1 {
+  aspect-ratio: 1920/940;
+  background-image: url("../img/banner_bg.jpg");
+  background-position: top center;
+  background-size: contain;
+  background-repeat: repeat;
+}
+section #section2 {
+  aspect-ratio: 1920/980;
+}
+section #section3 {
+  aspect-ratio: 1920/203;
+}
+section #section4 {
+  aspect-ratio: 1920/775;
+  background-image: url("../img/banner_bg.jpg");
+  background-position: top center;
+  background-size: contain;
+  background-repeat: repeat;
+}
+section #section5 {
+  aspect-ratio: 1920/1160;
+  background-image: url("../img/banner_bg.jpg");
+  background-position: top center;
+  background-size: contain;
+  background-repeat: repeat;
+  margin: auto 0;
+}
+
+footer {
+  aspect-ratio: 1920/667;
+}
+
+.container {
+  max-width: 80vw;
+  width: 100%;
+  aspect-ratio: 1520/940;
 }
 
 /*# sourceMappingURL=style.css.map */
