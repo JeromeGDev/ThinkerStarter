@@ -1,0 +1,85 @@
+/* Font Awesome */
+/* initilisation */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+/* Font : ROBOTO */
+@font-face {
+  font-family: "robotoblack";
+  src: url("/assets/fonts/roboto-black-webfont.woff2") format("woff2"), url("/assets/fonts/roboto-black-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "robotobold";
+  src: url("/assets/fonts/roboto-bold-webfont.woff2") format("woff2"), url("/assets/fonts/roboto-bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "robotolight";
+  src: url("/assets/fonts/roboto-light-webfont.woff2") format("woff2"), url("/assets/fonts/roboto-light-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "robotomedium";
+  src: url("/assets/fonts/roboto-medium-webfont.woff2") format("woff2"), url("/assets/fonts/roboto-medium-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "robotoregular";
+  src: url("/assets/fonts/roboto-regular-webfont.woff2") format("woff2"), url("/assets/fonts/roboto-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "robotothin";
+  src: url("/assets/fonts/roboto-thin-webfont.woff2") format("woff2"), url("/assets/fonts/roboto-thin-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+/* *** Style des polices *** */
+h1 {
+  font-family: "robotoregular", sans-serif;
+}
+
+h2 {
+  font-family: "robotoregular", sans-serif;
+}
+
+h3 {
+  font-family: "robotoregular", sans-serif;
+}
+
+h4 {
+  font-family: "robotoregular", sans-serif;
+}
+
+h5 {
+  font-family: "robotoregular", sans-serif;
+}
+
+h6 {
+  font-family: "robotoregular", sans-serif;
+}
+
+a {
+  font-family: "robotoregular", sans-serif;
+}
+
+p {
+  font-family: "robotoregular", sans-serif;
+}
+
+blockquote {
+  font-family: "robotoregular", sans-serif;
+}
+
+/*# sourceMappingURL=style.css.map */
