@@ -1,1 +1,6 @@
 
+header{
+    z-index: 0;
+    aspect-ratio: 1920/930;
+    @include bckgrdimg('/assets/img/banner_bg.jpg');
+}
