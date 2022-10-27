@@ -1,1 +1,8 @@
 @use 'sass:math';
+
+@mixin bckgrdimg($urlimg) {
+    background-image: url($urlimg);
+    background-position: top center;
+    background-size: contain;
+    background-repeat: repeat;
+}
