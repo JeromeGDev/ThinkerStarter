@@ -3,7 +3,11 @@ section{
     width:100%;
     & #section1{
         aspect-ratio: 1920/940;
+<<<<<<< HEAD
+
+=======
         @include bckgrdimg("../img/banner_bg.jpg");
+>>>>>>> 41db4b35e3af9cfd1e2dff6263436300723f4836
     }
     & #section2{
         aspect-ratio: 1920/980;
@@ -13,7 +17,11 @@ section{
     }
     & #section4{
         aspect-ratio: 1920/775;
+<<<<<<< HEAD
+        @include bckgrdimg("../img/banner_bg.jpg");
+=======
         @include bckgrdimg("../img/banner_bg.jpg") 
+>>>>>>> 41db4b35e3af9cfd1e2dff6263436300723f4836
     }
     & #section5{
         aspect-ratio: 1920/1160;
@@ -28,4 +36,23 @@ footer{
     max-width: 80vw;
     width:100%;
     aspect-ratio: 1520/940;
+    margin: 0 auto;
+    &__gallery{
+        display: grid;
+        grid-template-columns: 1fr auto;
+        &__gallery__links{
+            background-color: #3DC1CD;
+            color:#fff;
+            width:25vw;
+            height: 7.5vh;
+            margin:auto 0;
+            display:flex;
+            flex-direction: column;
+            align-content: space-between;
+            align-items: flex-start
+            &__links__top{
+                border-bottom: solid .125rem #fff;
+            }
+        }
+    }
 }
