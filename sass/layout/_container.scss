@@ -1,21 +1,21 @@
 section{
     max-width: 100vw;
     width:100%;
-    & #section1{
+    &#section1{
         aspect-ratio: 1920/940;
         @include bckgrdimg("../img/banner_bg.jpg");
     }
-    & #section2{
+    &#section2{
         aspect-ratio: 1920/980;
     }
-    & #section3{
+    &#section3{
         aspect-ratio: 1920/203;
     }
-    & #section4{
+    &#section4{
         aspect-ratio: 1920/775;
         @include bckgrdimg("../img/banner_bg.jpg") 
     }
-    & #section5{
+    &#section5{
         aspect-ratio: 1920/1160;
         @include bckgrdimg("../img/banner_bg.jpg");
         margin: auto 0;
