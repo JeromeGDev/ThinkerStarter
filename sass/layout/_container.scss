@@ -3,7 +3,11 @@ section{
     width:100%;
     & #section1{
         aspect-ratio: 1920/940;
+<<<<<<< HEAD
 
+=======
+        @include bckgrdimg("../img/banner_bg.jpg");
+>>>>>>> 41db4b35e3af9cfd1e2dff6263436300723f4836
     }
     & #section2{
         aspect-ratio: 1920/980;
@@ -13,7 +17,11 @@ section{
     }
     & #section4{
         aspect-ratio: 1920/775;
+<<<<<<< HEAD
         @include bckgrdimg("../img/banner_bg.jpg");
+=======
+        @include bckgrdimg("../img/banner_bg.jpg") 
+>>>>>>> 41db4b35e3af9cfd1e2dff6263436300723f4836
     }
     & #section5{
         aspect-ratio: 1920/1160;
