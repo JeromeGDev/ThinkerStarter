@@ -184,6 +184,10 @@ section {
 }
 section #section1 {
   aspect-ratio: 1920/940;
+  background-image: url("../img/banner_bg.jpg");
+  background-position: top center;
+  background-size: contain;
+  background-repeat: repeat;
 }
 section #section2 {
   aspect-ratio: 1920/980;
