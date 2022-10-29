@@ -3,11 +3,8 @@ body {
   overflow: hidden;
   width: 100%;
   height: 100%;
-<<<<<<< HEAD
   display: flex;
   flex-direction: column;
-=======
->>>>>>> 41db4b35e3af9cfd1e2dff6263436300723f4836
 }
 
 /* initilisation */
@@ -17,10 +14,7 @@ body {
   box-sizing: border-box;
   text-decoration: none;
   list-style: none;
-<<<<<<< HEAD
   transition: all 200ms ease-in;
-=======
->>>>>>> 41db4b35e3af9cfd1e2dff6263436300723f4836
 }
 
 /* Font : ROBOTO */
@@ -62,21 +56,16 @@ body {
 }
 /* *** Style des polices *** */
 h1 {
-<<<<<<< HEAD
   font-family: "robotoblack", sans-serif;
   color: #fff;
   text-transform: capitalize;
 }
 h1::first-letter {
   color: #F69536;
-=======
-  font-family: "robotoregular", sans-serif;
->>>>>>> 41db4b35e3af9cfd1e2dff6263436300723f4836
 }
 
 h2 {
   font-family: "robotoregular", sans-serif;
-<<<<<<< HEAD
   color: #fff;
 }
 h2 .imp1 {
@@ -84,8 +73,6 @@ h2 .imp1 {
 }
 h2 .imp2 {
   color: #F69536;
-=======
->>>>>>> 41db4b35e3af9cfd1e2dff6263436300723f4836
 }
 
 h3 {
@@ -106,22 +93,16 @@ h6 {
 
 a {
   font-family: "robotoregular", sans-serif;
-<<<<<<< HEAD
   color: #fff;
 }
 a:hover {
   color: #F5C35C;
   transform: scale(1.05);
-=======
->>>>>>> 41db4b35e3af9cfd1e2dff6263436300723f4836
 }
 
 p {
   font-family: "robotoregular", sans-serif;
-<<<<<<< HEAD
   color: #fff;
-=======
->>>>>>> 41db4b35e3af9cfd1e2dff6263436300723f4836
 }
 
 blockquote {
@@ -131,7 +112,6 @@ blockquote {
 header {
   z-index: 0;
   aspect-ratio: 1920/930;
-<<<<<<< HEAD
   background-image: url("../img/banner_bg.jpg");
   background-position: top center;
   background-size: contain;
@@ -196,12 +176,6 @@ nav ul li a:nth-child(n):hover {
 }
 nav ul li a:nth-child(n+2):hover {
   color: #3DC1CD;
-=======
-  background-image: url("/assets/img/banner_bg.jpg");
-  background-position: top center;
-  background-size: contain;
-  background-repeat: repeat;
->>>>>>> 41db4b35e3af9cfd1e2dff6263436300723f4836
 }
 
 section {
@@ -210,13 +184,6 @@ section {
 }
 section #section1 {
   aspect-ratio: 1920/940;
-<<<<<<< HEAD
-=======
-  background-image: url("../img/banner_bg.jpg");
-  background-position: top center;
-  background-size: contain;
-  background-repeat: repeat;
->>>>>>> 41db4b35e3af9cfd1e2dff6263436300723f4836
 }
 section #section2 {
   aspect-ratio: 1920/980;
@@ -248,7 +215,6 @@ footer {
   max-width: 80vw;
   width: 100%;
   aspect-ratio: 1520/940;
-<<<<<<< HEAD
   margin: 0 auto;
 }
 .container__gallery {
@@ -266,8 +232,6 @@ footer {
   align-content: space-between;
   align-items: flex-start .container__gallery__gallery__links __links__top;
   align-items-border-bottom: solid 0.125rem #fff;
-=======
->>>>>>> 41db4b35e3af9cfd1e2dff6263436300723f4836
 }
 
 /*# sourceMappingURL=style.css.map */
