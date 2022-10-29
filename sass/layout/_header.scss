@@ -2,5 +2,37 @@
 header{
     z-index: 0;
     aspect-ratio: 1920/930;
-    @include bckgrdimg('/assets/img/banner_bg.jpg');
+    @include bckgrdimg('../img/banner_bg.jpg');
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    & .top{
+        max-height: min-content;
+        height:1.9vh;
+        width:100%;
+        aspect-ratio: 1920/110;
+        position: fixed;
+        top:0;
+
+    }
+    & .bottom{
+        width:100%;
+        display:block;
+        &__block{
+            max-width: 40.36vw;
+            text-align: center;
+            display:flex;
+            flex-direction: column;
+            justify-content: center;
+            align-content: center;
+            margin:auto;
+            & a{
+                padding: 0.36vh 1.30vw 0.4vh 1.30vw;
+                background:#FFF;
+                color:#000;
+                font-weight: bolder;
+            }
+        }
+    }
 }

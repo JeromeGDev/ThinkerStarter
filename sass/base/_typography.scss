@@ -44,11 +44,23 @@
   }
 /* *** Style des polices *** */
 h1{
-    font-family: 'robotoregular',sans-serif;
+  font-family: 'robotoblack',sans-serif;
+  color:#fff;
+  text-transform: capitalize;
+  &::first-letter{
+    color:#F69536;
+  }
 }
 
 h2{
-        font-family: 'robotoregular',sans-serif;
+  font-family: 'robotoregular',sans-serif;
+  color:#fff;
+  & .imp1{
+    color:#3DC1CD;
+  }
+  & .imp2{
+    color:#F69536;
+  }
 }
 
 h3{
@@ -69,10 +81,16 @@ h6{
 
 a{
     font-family: 'robotoregular',sans-serif;
+    color:#fff;
+    &:hover{
+      color:#F5C35C;
+      transform:scale(1.05);
+    }
 }
 
 p{
     font-family: 'robotoregular',sans-serif;
+    color:#fff;
 }
 
 blockquote{

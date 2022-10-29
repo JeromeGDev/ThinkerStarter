@@ -1,1 +1,36 @@
 
+nav{
+    height:1.9vh;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding:1.24vh 0;
+    max-width: 80vw;
+    margin:0 auto;
+    position: sticky;
+    top:0;
+    &__logoBox{
+
+    }
+    & ul{
+        padding:0.14vh 0;
+        gap:1.042vw;
+        display: flex;
+        & li{
+            margin:0 1.042vw;
+            text-transform: uppercase;
+            color:#fff;
+            & a:nth-child(n){
+                &:hover{
+                    color:#F69536;
+                }
+            }
+            & a:nth-child(n+2){
+                &:hover{
+                    color:#3DC1CD;
+                }
+            }
+        }
+    }
+}
